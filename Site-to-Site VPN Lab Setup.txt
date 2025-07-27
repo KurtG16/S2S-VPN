@@ -101,7 +101,7 @@ conf t
  int g3
   ip add 10.10.10.11 255.255.255.0
   no shut
- !
+ 
  username admin privilege 15 secret pass
  ip http server
  ip http secure-server
